@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body>
+  <div class="result-summary">
+  <section class="your-results">
+    <h3 id="result-header">Your Result</h3>
+    <div class="score">
+    <span id="score">76</span>
+    <p id="points">of 100</p>
+  </div>
+    <h2 id="comment">Great</h2>
+    <p id="phrase">You scored higher than 65% of the people who have taken these tests.</p>
+  </section>
+
+  <section class="summary">
+  <h3>Summary</h3>
+
+  <div class="grid-flow">
+  <div class="icons" data-item-type="accent-1">
+    <div class="flex-group">
+  <img class="summary-icon"  src="assets/images/icon-reaction.svg" alt="reaction">
+  <p class="reaction">Reaction</p>
+</div>
+  <p class="summary-score"><span>80</span> / 100</p>
+  </div>
+
+  <div class="icons" data-item-type="accent-2">
+    <div class="flex-group">
+  <img class="summary-icon" src="assets/images/icon-memory.svg" alt="memory">
+  <p class="memory">Memory</p>
+</div>
+  <p class="summary-score"><span>92</span> / 100</p>
+  </div>
+
+  <div class="icons" data-item-type="accent-3">
+    <div class="flex-group">
+  <img class="summary-icon" src="assets/images/icon-verbal.svg" alt="verbal">
+  <p class="verbal">Verbal</p>
+</div>
+  <p class="summary-score"><span>61</span> / 100</p>
+  </div>
+  
+  <div class="icons" data-item-type="accent-4">
+    <div class="flex-group">
+  <img class="summary-icon" src="assets/images/icon-visual.svg" alt="visual">
+  <p class="visual">Visual</p>
+</div>
+  <p class="summary-score"><span>72</span> / 100</p>
+  </div>
+</div>
+  
+  <button class="btn">Continue</button>
+  </section>
+</div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.pinterest.com/AnaDom_D/" target="_blank">Ana D&D</a>.
+  </div> -->
+</body>
+</html>
