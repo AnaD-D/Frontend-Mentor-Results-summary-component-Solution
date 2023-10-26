@@ -2,7 +2,7 @@
     font-family: 'Hanken Grotesk';
     font-display: swap;
     font-weight: 100 900;
-    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    src: url('HankenGrotesk-VariableFont_wght.ttf') format('truetype');
 }
 
 * {
